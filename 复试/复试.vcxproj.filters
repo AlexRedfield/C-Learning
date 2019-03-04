@@ -15,8 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="binary_tree.cpp">
+    <ClCompile Include="2017.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="2016.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2015.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2014.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2013.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2011.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyArray.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

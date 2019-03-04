@@ -15,8 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="binary_tree.cpp">
+    <ClCompile Include="Vehicle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vehicle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

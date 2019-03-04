@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{A254C068-B889-44A1-8F07-DED6ABEC12A6}</ProjectGuid>
-    <RootNamespace>BinaryTree</RootNamespace>
+    <ProjectGuid>{8C80E55D-D363-4B16-ADB6-B9BBE65E1A37}</ProjectGuid>
+    <RootNamespace>vehicle</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,7 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="binary_tree.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Car.hpp" />
+    <ClInclude Include="Plane.hpp" />
+    <ClInclude Include="Vehicle.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
